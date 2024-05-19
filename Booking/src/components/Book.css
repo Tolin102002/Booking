@@ -1,0 +1,109 @@
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .booking-form h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #0052cc;
+  }
+  
+  .booking-form p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .trip-type {
+    display: flex;
+    margin-top: 30px;
+  }
+  
+  .one-way,
+  .round-trip {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .one-way {
+    background-color: #0052cc;
+  }
+  
+  .round-trip {
+    background-color: #ccc;
+  }
+  
+  .details {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .details p {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .payment,
+  .passenger-type {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+  }
+  
+  .payment p,
+  .passenger-type p {
+    padding-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .payment select,
+  .passenger-type select {
+    padding: 5px 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .total-payment {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+  }
+  
+  .total-payment p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0052cc;
+  }
+  
+  .book-trip {
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0052cc;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  
+  .book-trip:hover {
+    background-color: #003399;
+  }
